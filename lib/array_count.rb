@@ -1,7 +1,4 @@
 require 'pry'
-[1, 2, 3,].count do |element|
-  return element * element
-end
 
 # def count_strings(array)
 #   array.count do |element|
