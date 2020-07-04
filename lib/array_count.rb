@@ -1,4 +1,4 @@
-
+require 'pry'
 [1, 2, 3,].count do |element|
   
 end
