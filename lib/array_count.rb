@@ -5,6 +5,7 @@ def count_strings(array)
   array.count do |is_this_string|
     array.any? == String
 end
+return array
 end
 
 
