@@ -3,7 +3,7 @@ require 'pry'
 
 def count_strings(array)
   array.count do |is_this_string|
-    array.include?(String)
+    array.any?(String)
 end
 end
 
