@@ -3,9 +3,9 @@ require 'pry'
 
 def count_strings(array)
   array.count do |is_this_string|
-    binding.pry
+    array.include?("")
 end
-is_this_string
+array
 end
 
 
