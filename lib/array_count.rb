@@ -4,8 +4,9 @@ require 'pry'
 def count_strings(array)
   array.count do |is_this_string|
     is_this_string == ""
-    is_this_string
+    
 end
+is_this_string
 end
 
 
