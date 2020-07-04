@@ -3,7 +3,7 @@ require 'pry'
 
 def count_strings(array)
   array.count do |is_this_string|
-    array.find("")
+    array.find_index("")
 end
 end
 
