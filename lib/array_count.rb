@@ -4,7 +4,6 @@ require 'pry'
 def count_strings(array)
   array.count do |is_this_string|
     array[element].class?(String)
-    return element
 end
 end
 
