@@ -1,10 +1,12 @@
 require 'pry'
 
-# def count_strings(array)
-#   array.count do |element|
-#     array[element].include?(String)
-# end
-# end
+
+def count_strings(array)
+  array.count do |is_this_string|
+    array[element].include?(String)
+    return element
+end
+end
 
 
 
