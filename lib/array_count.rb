@@ -1,6 +1,6 @@
+
 [1, 2, 3,].count do |element|
-  # code in here runs every time count enumerates over an element
-  # that element is available as the name we define inside the pipes above
+  
 end
 
 # def count_strings(array)
