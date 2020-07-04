@@ -5,7 +5,6 @@ def count_strings(array)
   array.count do |is_this_string|
     is_this_string == ""
 end
-array
 end
 
 
