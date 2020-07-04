@@ -1,6 +1,6 @@
 require 'pry'
 [1, 2, 3,].count do |element|
-  binding.pry
+  return element * element
 end
 
 # def count_strings(array)
